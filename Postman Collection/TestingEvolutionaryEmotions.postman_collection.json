@@ -1,0 +1,479 @@
+{
+	"info": {
+		"_postman_id": "9fe8f395-45c9-4c8c-8f4b-b5a0f1799527",
+		"name": "TestingEvolutionaryEmotions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TestEvokingNegativeMentalEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"NEGATIVE_MENTAL\",\"description\":\"Harmful thoughts\",\"causedBy\":{\"name\":\"self\",\"identifiedAs\":\"self\"}}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestEvokingNegativePhysicalEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"NEGATIVE_PHYSICAL\",\"description\":\"A punch to the face\",\"causedBy\":{\"name\":\"Mike Tyson\",\"identifiedAs\":\"a human\"}}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestEvokingNegativeAuditoryEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"NEGATIVE_AUDITORY\",\"description\":\"An aggressive bark\",\"causedBy\":{\"name\":\"Molly\",\"identifiedAs\":\"a dog\"}}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestEvokingNegativeVisualEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"NEGATIVE_VISUAL\",\"description\":\"A mocking face\",\"causedBy\":{\"name\":\"Jimmy\",\"identifiedAs\":\"a human\"}}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestEvokingNegativeOlfactoryEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"NEGATIVE_OLFACTORY\",\"description\":\"A rotten egg smell\",\"causedBy\":{\"name\":\"A rotten egg\",\"identifiedAs\":\"an egg\"}} "
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestEvokingPositiveMentalEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"POSITIVE_MENTAL\",\"description\":\"a sweet dream\",\"causedBy\":{\"name\":\"self\",\"identifiedAs\":\"self\"}}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestEvokingPositivePhysicalEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"POSITIVE_PHYSICAL\",\"description\":\"A warm hug\",\"causedBy\":{\"name\":\"Tommy\",\"identifiedAs\":\"a human\"}}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestEvokingPositiveAuditoryEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"POSITIVE_AUDITORY\",\"description\":\"A gentle song\",\"causedBy\":{\"name\":\"Katie Melua\",\"identifiedAs\":\"a human\"}}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestEvokingPositiveVisualEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"POSITIVE_VISUAL\",\"description\":\"A beautiful scenery\",\"causedBy\":{\"name\":\"The Sun\",\"identifiedAs\":\"the star of the Earth\"}}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestEvokingPositiveOlfactoryEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventType\":\"POSITIVE_OLFACTORY\",\"description\":\"A smell of a rose\",\"causedBy\":{\"name\":\"A red rose\",\"identifiedAs\":\"a flower\"}}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test adding a new member service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestGettingAllEvents",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/events/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						""
+					]
+				},
+				"description": "Test getting all members service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestGettingAllSubjects",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/events/subjects/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						"subjects",
+						""
+					]
+				},
+				"description": "Test getting all members service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestGettingNeuralNetworkConfigurations",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/events/configurations/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						"configurations",
+						""
+					]
+				},
+				"description": "Test getting all members service"
+			},
+			"response": []
+		},
+		{
+			"name": "TestChangingNeuralNetworkConfigurations",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer b1219564-e78d-417c-acff-efe1d4d17303"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"feelingLowerLimit\":-30,\"feelingUpperLimit\":-10,\"feelingExpiryPeriod\":125}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/events/configurations/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"events",
+						"configurations",
+						""
+					]
+				},
+				"description": "Test changing member details by ID"
+			},
+			"response": []
+		}
+	]
+}
